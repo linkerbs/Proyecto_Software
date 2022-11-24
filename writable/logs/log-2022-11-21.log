@@ -1,0 +1,36 @@
+CRITICAL - 2022-11-21 19:37:53 --> A non-numeric value encountered
+in APPPATH/Libraries/MatrizJul2014.php on line 9.
+ 1 APPPATH/Libraries/MatrizJul2014.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/ServiciosController.php(62): App\Libraries\MatrizJul2014->calcularMatriz()
+ 3 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\ServiciosController->getCalcularTasas()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-21 19:38:07 --> A non-numeric value encountered
+in APPPATH/Libraries/MatrizJul2014.php on line 9.
+ 1 APPPATH/Libraries/MatrizJul2014.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/ServiciosController.php(62): App\Libraries\MatrizJul2014->calcularMatriz()
+ 3 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\ServiciosController->getCalcularTasas()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-21 19:38:09 --> A non-numeric value encountered
+in APPPATH/Libraries/MatrizJul2014.php on line 9.
+ 1 APPPATH/Libraries/MatrizJul2014.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/ServiciosController.php(62): App\Libraries\MatrizJul2014->calcularMatriz()
+ 3 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\ServiciosController->getCalcularTasas()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-11-21 20:42:48 --> A non-numeric value encountered
+in APPPATH/Libraries/MatrizJul2014.php on line 9.
+ 1 APPPATH/Libraries/MatrizJul2014.php(9): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/ServiciosController.php(62): App\Libraries\MatrizJul2014->calcularMatriz()
+ 3 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\ServiciosController->getCalcularTasas()
+ 4 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')

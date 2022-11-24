@@ -1,0 +1,274 @@
+CRITICAL - 2022-10-23 12:38:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH/Controllers/ServiciosController.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-23 12:42:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH/Controllers/ServiciosController.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-23 12:42:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH/Controllers/ServiciosController.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-23 12:43:00 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH/Controllers/ServiciosController.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-23 12:43:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH/Controllers/ServiciosController.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-23 12:45:51 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result_array()
+in APPPATH/Controllers/ServiciosController.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-23 14:44:51 --> Call to a member function setContentType() on array
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+CRITICAL - 2022-10-23 14:44:53 --> Call to a member function setContentType() on array
+in APPPATH/Controllers/Home.php on line 14.
+ 1 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\Home->index()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-10-23 15:20:02 --> mysqli_sql_exception: Table 'ordenanzas.Vistas_Servicios' doesn't exist in /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkerb/alcaldia/ordenanzasamss/app/Controllers/ServiciosController.php(11): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+#5 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#6 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/linkerb/alcaldia/ordenanzasamss/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('/home/linkerb/a...')
+#9 {main}
+CRITICAL - 2022-10-23 15:20:02 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/ServiciosController.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-10-23 15:20:07 --> mysqli_sql_exception: Table 'ordenanzas.Vistas_Servicios' doesn't exist in /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkerb/alcaldia/ordenanzasamss/app/Controllers/ServiciosController.php(11): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+#5 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#6 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/linkerb/alcaldia/ordenanzasamss/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#8 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('/home/linkerb/a...')
+#9 {main}
+CRITICAL - 2022-10-23 15:20:07 --> Call to a member function getResultArray() on bool
+in APPPATH/Controllers/ServiciosController.php on line 12.
+ 1 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-10-23 21:01:08 --> mysqli_sql_exception: Table 'ordenanzas.servicios_municipales' doesn't exist in /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkerb/alcaldia/ordenanzasamss/app/Controllers/ServiciosController.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+#6 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/linkerb/alcaldia/ordenanzasamss/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('/home/linkerb/a...')
+#10 {main}
+CRITICAL - 2022-10-23 21:01:08 --> Call to a member function getRowArray() on bool
+in APPPATH/Controllers/ServiciosController.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-10-23 21:01:10 --> mysqli_sql_exception: Table 'ordenanzas.servicios_municipales' doesn't exist in /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkerb/alcaldia/ordenanzasamss/app/Controllers/ServiciosController.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+#6 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/linkerb/alcaldia/ordenanzasamss/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('/home/linkerb/a...')
+#10 {main}
+CRITICAL - 2022-10-23 21:01:10 --> Call to a member function getRowArray() on bool
+in APPPATH/Controllers/ServiciosController.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-10-23 21:01:19 --> mysqli_sql_exception: Table 'ordenanzas.servicios_municipales' doesn't exist in /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkerb/alcaldia/ordenanzasamss/app/Controllers/ServiciosController.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+#6 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/linkerb/alcaldia/ordenanzasamss/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('/home/linkerb/a...')
+#10 {main}
+CRITICAL - 2022-10-23 21:01:19 --> Call to a member function getRowArray() on bool
+in APPPATH/Controllers/ServiciosController.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-10-23 21:04:55 --> mysqli_sql_exception: Table 'ordenanzas.servicios_municipales' doesn't exist in /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkerb/alcaldia/ordenanzasamss/app/Controllers/ServiciosController.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+#6 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/linkerb/alcaldia/ordenanzasamss/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('/home/linkerb/a...')
+#10 {main}
+CRITICAL - 2022-10-23 21:04:55 --> Call to a member function getRowArray() on bool
+in APPPATH/Controllers/ServiciosController.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-10-23 21:04:58 --> mysqli_sql_exception: Table 'ordenanzas.servicios_municipales' doesn't exist in /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkerb/alcaldia/ordenanzasamss/app/Controllers/ServiciosController.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+#6 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/linkerb/alcaldia/ordenanzasamss/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('/home/linkerb/a...')
+#10 {main}
+CRITICAL - 2022-10-23 21:04:58 --> Call to a member function getRowArray() on bool
+in APPPATH/Controllers/ServiciosController.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-10-23 21:08:43 --> mysqli_sql_exception: Table 'ordenanzas.servicios_municipales' doesn't exist in /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkerb/alcaldia/ordenanzasamss/app/Controllers/ServiciosController.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+#6 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/linkerb/alcaldia/ordenanzasamss/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('/home/linkerb/a...')
+#10 {main}
+CRITICAL - 2022-10-23 21:08:43 --> Call to a member function getRowArray() on bool
+in APPPATH/Controllers/ServiciosController.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-10-23 21:08:47 --> mysqli_sql_exception: Table 'ordenanzas.servicios_municipales' doesn't exist in /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkerb/alcaldia/ordenanzasamss/app/Controllers/ServiciosController.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+#6 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/linkerb/alcaldia/ordenanzasamss/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('/home/linkerb/a...')
+#10 {main}
+CRITICAL - 2022-10-23 21:08:47 --> Call to a member function getRowArray() on bool
+in APPPATH/Controllers/ServiciosController.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-10-23 21:16:18 --> mysqli_sql_exception: Table 'ordenanzas.servicios_municipales' doesn't exist in /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkerb/alcaldia/ordenanzasamss/app/Controllers/ServiciosController.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+#6 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/linkerb/alcaldia/ordenanzasamss/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('/home/linkerb/a...')
+#10 {main}
+CRITICAL - 2022-10-23 21:16:18 --> Call to a member function getRowArray() on bool
+in APPPATH/Controllers/ServiciosController.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
+ERROR - 2022-10-23 21:16:20 --> mysqli_sql_exception: Table 'ordenanzas.servicios_municipales' doesn't exist in /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseConnection.php(620): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query()
+#4 /home/linkerb/alcaldia/ordenanzasamss/app/Controllers/ServiciosController.php(32): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+#6 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+#7 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/linkerb/alcaldia/ordenanzasamss/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /home/linkerb/alcaldia/ordenanzasamss/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(46): require_once('/home/linkerb/a...')
+#10 {main}
+CRITICAL - 2022-10-23 21:16:20 --> Call to a member function getRowArray() on bool
+in APPPATH/Controllers/ServiciosController.php on line 33.
+ 1 SYSTEMPATH/CodeIgniter.php(902): App\Controllers\ServiciosController->getServicios()
+ 2 SYSTEMPATH/CodeIgniter.php(457): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(340): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(46): require_once('FCPATH/index.php')
